@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+    background-color: darkgray;
+    width: 100%;
+
+
+}
+#logo{
+    border: solid white 1px;
+    background-color: white;
+    transition: all 2s ease 0s;
+}
+#logo:hover{
+    transform: translate(-50px, 0);
+    transition: all 2s ease 0s;
+}
+#log{
+    font-family: 'Tilt Warp', cursive;
+    text-transform: uppercase;
+padding: 0 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 1px;
+background-color: black;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Mukta', sans-serif;
+    height: 55px;
+    transition: all 2s ease 0s;
+}
+nav:hover{
+    transform: translate(50px, 0);
+    transition: all 2s ease 0s;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+header{
+margin: 0 9%;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+#sec1{
+    border: solid darkgray 1px;
+    background-color: purple;
+    margin: 150px 600px;
+    width: 470px;
+    height: 190px;
+    background: linear-gradient( to left, blue, dodgerblue);
+    transition: all 3s ease 0s;
+
+}
+#sec1:hover{
+    background: linear-gradient( to left, purple, pink);
+    transform: scale( 3, 2);
+    transition: all 3s ease 0s;
+}
+main{
+    margin: 0 9%;
+
+}
+.art1{
+
+    border: solid white 1px;
+    background-color: white;
+    color: dodgerblue;
+    width: 400px;
+    margin: 100px 0;
+    border-radius: 20px;
+    font-family: 'Tilt Neon', cursive;
+    padding: 20px;
+    transition: all 1.5s ease 0s;
+}
+.art1:hover{
+    transform: scale( 1.2, 1.2);
+    transition: all 1.5s ease 0s;
+}
+#sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+.art2{
+    width: 70%;
+    height: auto;
+    border: 1px solid darkgray;
+    background-color: white;
+    color: dodgerblue;
+    font-family: 'Tilt Neon', cursive;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 1.5s ease 0s;
+}
+.art2:hover{
+    transform: scale( 1.1, 1.1);
+    transition: all 1.5s ease 0s;
+}
+#naviga{
+    padding: 20px;
+}
+#artsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav{
+    width: 30%;
+    border: solid darkgray 1px;
+    color: dodgerblue;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 0 0 60px;
+    font-family: 'Tilt Neon', cursive;
+    transition: all 1.5s ease 0s;
+}
+#nav:hover{
+    transform: scale( 1.1, 1.1);
+    transition: all 1.5s ease 0s;
+}
+.li2{
+    list-style: none;
+display: block;
+    padding: 17px 0;
+    border: solid 1px dodgerblue;
+    width: 300px;
+    background-color: skyblue;
+    font-family: 'Mukta', sans-serif;
+
+}
+#gal{
+    color: dodgerblue;
+    font-family: 'Tilt Neon', cursive;
+    padding: 20px 0 10px 0;
+}
+#img2{
+    width: auto;
+
+}
+.go{
+    height: 200px;
+    width: 380px;
+}
+footer{
+    border: solid white 1px;
+    background-color: white;
+    color: dodgerblue;
+    margin: 100px 9%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
